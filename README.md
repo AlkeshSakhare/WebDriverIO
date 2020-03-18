@@ -34,6 +34,8 @@ npm -v
 
 /*
 Tips:
+
 1.Every time new session will be created for each script
+
 2.If there are multiple testcases i.e it() block then same session will be use to execute testcase
 */
