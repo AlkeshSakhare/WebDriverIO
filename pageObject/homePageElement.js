@@ -1,12 +1,12 @@
 class HomePage{
 
-    gethomePageBtn(){return $("//a[text()='Home']")}
+    get homePageBtn(){return $("//a[text()='Home']")}
 
-    getUserNameTxt(){return $("//*[@name='username']")}
+    get UserNameTxt(){return $("//*[@name='username']")}
 
-    getPasswordTxt(){return $("//*[@name='password']")}
+    get PasswordTxt(){return $("//*[@name='password']")}
 
-    getLoginBtn(){ return $("//*[@value='Login']")}
+    get LoginBtn(){ return $("//*[@value='Login']")}
 }
 
 module.exports=new HomePage();
