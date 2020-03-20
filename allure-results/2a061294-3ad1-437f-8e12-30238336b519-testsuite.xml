@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584713344341' stop='1584713361589'>
+    <name>Login to Application</name>
+    <title>Login to Application</title>
+    <test-cases>
+        <test-case start='1584713344342' status='broken' stop='1584713361587'>
+            <name>Login to application testcase</name>
+            <title>Login to application testcase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1584713344461' status='passed' stop='1584713345660'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='9fe1fa51-aff0-4066-8614-840d9bd5c361-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584713345687' status='passed' stop='1584713355042'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c8dffe4d-c74f-4a7f-b5a6-fc8a0a491a46-attachment.json' type='application/json' size='43'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584713360055' status='passed' stop='1584713360417'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='641302b7-db95-4681-9116-5816a5a7ea71-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='72de785d-7b80-412c-acc3-0ad0b9dade9e-attachment.json' type='application/json' size='548'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1584713360450' status='passed' stop='1584713361583'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7a2eeca7-11a2-44f3-a890-56190ff8654b-attachment.png' type='image/png' size='567490'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elements is not defined</message>
+                <stack-trace>ReferenceError: elements is not defined
+                    at HomePage.get printAllNavigationElement [as printAllNavigationElement] (C:\Users\Alkesh\WebDriverIODemo\pageObject\homePageElement.js:17:43)
+                    at Context.&lt;anonymous> (C:\Users\Alkesh\WebDriverIODemo\test\homePage.js:8:14)
+                    at Context.executeSync (C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

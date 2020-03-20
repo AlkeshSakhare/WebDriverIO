@@ -5,6 +5,7 @@ describe('Login to Application',() => {
         browser.maximizeWindow(); // maximize window
         browser.url('/'); // open  baseUrl Set in wdio.conf.js
         browser.pause(5000);
+        home.printAllNavigationElement();
         home.UserNameTxt.clearValue();
         home.UserNameTxt.setValue('aabb1122');
         home.PasswordTxt.clearValue();
