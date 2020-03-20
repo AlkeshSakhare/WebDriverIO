@@ -5,8 +5,10 @@ describe('Login to Application',() => {
         browser.maximizeWindow(); // maximize window
         browser.url('/'); // open  baseUrl Set in wdio.conf.js
         browser.pause(5000);
-        home.getUserNameTxt.setValue('aabb1122');
-        home.getPasswordTxt.setValue('aabb1122');
-        home.getLoginBtn.click();
+        home.getUserNameTxt().clearValue();
+        home.getUserNameTxt().setValue('aabb1122');
+        home.getPasswordTxt().clearValue();
+        home.getPasswordTxt().setValue('aabb1122');
+        home.getLoginBtn().click();
     });
 });
