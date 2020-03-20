@@ -1,4 +1,4 @@
-# WebDriverIO
+# WebDriverIO QuickStart Guide
 
 Webdriver IO Installation:
 
@@ -12,13 +12,13 @@ npm -v
 4. install VSC editor
 
 5. webdriver setup and installation commands:
-  npm init
-  npm install webdriverio --save-dev
-  npm install @wdio/cli
-  .\node_modules\.bin\wdio config
-  npm install chai --save-dev
-  npm install chai-webdriverio --save-dev
-  npm install local-runner --save-dev
+    npm init
+    npm install webdriverio --save-dev
+    npm install @wdio/cli
+    .\node_modules\.bin\wdio config
+    npm install chai --save-dev
+    npm install chai-webdriverio --save-dev
+    npm install local-runner --save-dev
 
 6.Configuration
     Goto wdio.conf.js file and change 
