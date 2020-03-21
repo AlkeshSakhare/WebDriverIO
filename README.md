@@ -6,12 +6,12 @@ Webdriver IO Installation:
 2. Node.js installation
 3. NPM installation
 4. open terminal/command line:
-node -v
-npm -v
+    node -v
+    npm -v
 
-4. install VSC editor
+5. install VSC editor
 
-5. webdriver setup and installation commands:
+6. webdriver setup and installation commands:
 
     npm init
 
@@ -27,7 +27,7 @@ npm -v
 
     npm install local-runner --save-dev
 
-6.Configuration
+7.Configuration
 
     Goto wdio.conf.js file and change 
 
@@ -39,7 +39,7 @@ npm -v
 
          line 7 to "test": "node_modules/.bin/wdio run wdio.conf.js"
 
-7.To Run test
+8.To Run test
 
     npm test
 
