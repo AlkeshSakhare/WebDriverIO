@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login to Application",
+    "children" : [ {
+      "name" : "Login to application testcase",
+      "uid" : "f58ecbe55b50841",
+      "parentUid" : "68e53c6b36140838a9c8cd89af3d0a5e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584793331231,
+        "stop" : 1584793391152,
+        "duration" : 59921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "68e53c6b36140838a9c8cd89af3d0a5e"
+  } ]
+}

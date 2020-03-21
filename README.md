@@ -79,3 +79,25 @@ Creating Test Suites:
 npm run --suite SuiteName
 
 */
+
+
+/*
+
+Generate allure report
+
+1.run command to install allure commandline tool : npm install -g allure-commandline --save-dev
+
+2.run command : npm install @wdio/allure-reporter --save-dev
+
+3.add below code
+
+`reporters: ['spec',['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],`
+
+4.run command : allure generate [allure_output_dir] && allure open
+    
+
+*/

@@ -1,0 +1,160 @@
+{
+  "uid" : "7061e0f6534390a5",
+  "name" : "Login to application testcase",
+  "fullName" : "Login to Application.Login to application testcase",
+  "historyId" : "62541956e57285d20b742716ada5abe3",
+  "time" : {
+    "start" : 1584713344342,
+    "stop" : 1584713361587,
+    "duration" : 17245
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "elements is not defined",
+  "statusTrace" : "ReferenceError: elements is not defined\n                    at HomePage.get printAllNavigationElement [as printAllNavigationElement] (C:\\Users\\Alkesh\\WebDriverIODemo\\pageObject\\homePageElement.js:17:43)\n                    at Context.<anonymous> (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js:8:14)\n                    at Context.executeSync (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "elements is not defined",
+    "statusTrace" : "ReferenceError: elements is not defined\n                    at HomePage.get printAllNavigationElement [as printAllNavigationElement] (C:\\Users\\Alkesh\\WebDriverIODemo\\pageObject\\homePageElement.js:17:43)\n                    at Context.<anonymous> (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js:8:14)\n                    at Context.executeSync (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1584713344461,
+        "stop" : 1584713345660,
+        "duration" : 1199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7f614d7ab19f421",
+        "name" : "Response",
+        "source" : "e7f614d7ab19f421.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1584713345687,
+        "stop" : 1584713355042,
+        "duration" : 9355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4906dc8c92a1a8c0",
+        "name" : "Request",
+        "source" : "4906dc8c92a1a8c0.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1584713360055,
+        "stop" : 1584713360417,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93b7ac5b53450df8",
+        "name" : "Request",
+        "source" : "93b7ac5b53450df8.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "b3bb1879a97036a4",
+        "name" : "Response",
+        "source" : "b3bb1879a97036a4.json",
+        "type" : "application/json",
+        "size" : 548
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1584713360450,
+        "stop" : 1584713361583,
+        "duration" : 1133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bd0f961187d283",
+        "name" : "Screenshot",
+        "source" : "3bd0f961187d283.png",
+        "type" : "image/png",
+        "size" : 567490
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to application testcase"
+  }, {
+    "name" : "package",
+    "value" : "Login to Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7061e0f6534390a5.json",
+  "parameterValues" : [ "chrome" ]
+}

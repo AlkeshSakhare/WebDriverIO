@@ -1,0 +1,148 @@
+{
+  "uid" : "f58ecbe55b50841",
+  "name" : "Login to application testcase",
+  "fullName" : "Login to Application.Login to application testcase",
+  "historyId" : "62541956e57285d20b742716ada5abe3",
+  "time" : {
+    "start" : 1584793331231,
+    "stop" : 1584793391152,
+    "duration" : 59921
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)\n                    at Test.Runnable._timeoutError (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login to Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to application testcase"
+  }, {
+    "name" : "package",
+    "value" : "Login to Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8e1f2fdd376fe0cd",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js)",
+      "time" : {
+        "start" : 1584793111386,
+        "stop" : 1584793171732,
+        "duration" : 60346
+      }
+    }, {
+      "uid" : "dfc48685c6fe586e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
+      "time" : {
+        "start" : 1584793111340,
+        "stop" : 1584793171734,
+        "duration" : 60394
+      }
+    }, {
+      "uid" : "8eb497dd197c1218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584788569719,
+        "stop" : 1584788606299,
+        "duration" : 36580
+      }
+    }, {
+      "uid" : "538069b7df0a94b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584782011220,
+        "stop" : 1584782048287,
+        "duration" : 37067
+      }
+    }, {
+      "uid" : "fe8b5a5da5eebd90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584781814725,
+        "stop" : 1584781861599,
+        "duration" : 46874
+      }
+    }, {
+      "uid" : "536044364ae7c810",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584713948539,
+        "stop" : 1584713980032,
+        "duration" : 31493
+      }
+    }, {
+      "uid" : "86573d89c4f216b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584713604319,
+        "stop" : 1584713633941,
+        "duration" : 29622
+      }
+    }, {
+      "uid" : "7990581b99d08351",
+      "status" : "broken",
+      "statusDetails" : "home.printAllNavigationElement is not a function",
+      "time" : {
+        "start" : 1584713567170,
+        "stop" : 1584713581446,
+        "duration" : 14276
+      }
+    }, {
+      "uid" : "7061e0f6534390a5",
+      "status" : "broken",
+      "statusDetails" : "elements is not defined",
+      "time" : {
+        "start" : 1584713344342,
+        "stop" : 1584713361587,
+        "duration" : 17245
+      }
+    }, {
+      "uid" : "a6ffa0c289e210c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584712006587,
+        "stop" : 1584712035252,
+        "duration" : 28665
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f58ecbe55b50841.json",
+  "parameterValues" : [ "chrome" ]
+}

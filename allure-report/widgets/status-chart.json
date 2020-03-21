@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f58ecbe55b50841",
+  "name" : "Login to application testcase",
+  "time" : {
+    "start" : 1584793331231,
+    "stop" : 1584793391152,
+    "duration" : 59921
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
