@@ -6,10 +6,12 @@ describe('Login to Application',() => {
         browser.url('/'); // open  baseUrl Set in wdio.conf.js
         browser.pause(5000);
         home.printAllNavigationElement();
+        console.log('home.UserNameTxt.isDisplayed()',home.UserNameTxt.isDisplayed())
         home.UserNameTxt.clearValue();
         home.UserNameTxt.setValue('aabb1122');
         home.PasswordTxt.clearValue();
         home.PasswordTxt.setValue('aabb1122');
         home.LoginBtn.click();
+
     });
 });

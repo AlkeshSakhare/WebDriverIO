@@ -14,6 +14,7 @@
     "webdriverio": "^5.21.0"
   },
   "devDependencies": {
+    "@types/webdriverio": "^5.0.0",
     "@wdio/allure-reporter": "^5.22.0",
     "@wdio/local-runner": "^5.21.0",
     "@wdio/mocha-framework": "^5.18.7",
@@ -23,5 +24,16 @@
     "chai-webdriverio": "^1.0.0",
     "chromedriver": "^80.0.1",
     "wdio-chromedriver-service": "^5.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlkeshSakhare/WebDriverIO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlkeshSakhare/WebDriverIO/issues"
+  },
+  "homepage": "https://github.com/AlkeshSakhare/WebDriverIO#readme"
 }
