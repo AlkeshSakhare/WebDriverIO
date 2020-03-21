@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
-      "children" : [ {
-        "name" : "Login to application testcase",
-        "uid" : "f58ecbe55b50841",
-        "parentUid" : "667614ca4d332ca93893fc40badd67d9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1584793331231,
-          "stop" : 1584793391152,
-          "duration" : 59921
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      } ],
-      "uid" : "667614ca4d332ca93893fc40badd67d9"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

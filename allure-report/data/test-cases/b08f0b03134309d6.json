@@ -1,12 +1,12 @@
 {
-  "uid" : "8e1f2fdd376fe0cd",
+  "uid" : "b08f0b03134309d6",
   "name" : "Login to application testcase",
   "fullName" : "Login to Application.Login to application testcase",
   "historyId" : "62541956e57285d20b742716ada5abe3",
   "time" : {
-    "start" : 1584793111386,
-    "stop" : 1584793171732,
-    "duration" : 60346
+    "start" : 1584796131772,
+    "stop" : 1584796217239,
+    "duration" : 85467
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -25,7 +25,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "Login to Application"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8e1f2fdd376fe0cd.json",
+  "source" : "b08f0b03134309d6.json",
   "parameterValues" : [ "chrome" ]
 }

@@ -1,5 +1,5 @@
 const home=require('../pageObject/homePageElement');
-
+const data=require("../testData/data")
 describe('Login to Application',() => {
     it('Login to application testcase', () =>{
         browser.maximizeWindow(); // maximize window
@@ -8,9 +8,9 @@ describe('Login to Application',() => {
         home.printAllNavigationElement();
         console.log('home.UserNameTxt.isDisplayed()',home.UserNameTxt.isDisplayed())
         home.UserNameTxt.clearValue();
-        home.UserNameTxt.setValue('aabb1122');
+        home.UserNameTxt.setValue(data.username);
         home.PasswordTxt.clearValue();
-        home.PasswordTxt.setValue('aabb1122');
+        home.PasswordTxt.setValue(data.password);
         home.LoginBtn.click();
 
     });

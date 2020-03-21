@@ -5,46 +5,7 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "Login to application testcase",
-      "uid" : "f58ecbe55b50841",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1584793331231,
-        "stop" : 1584793391152,
-        "duration" : 59921
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "8eb497dd197c1218",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1584788569719,
-        "stop" : 1584788606299,
-        "duration" : 36580
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "dfc48685c6fe586e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1584793111340,
-        "stop" : 1584793171734,
-        "duration" : 60394
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "7990581b99d08351",
+      "uid" : "cc96d150f9026d24",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -57,59 +18,33 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Login to application testcase",
-      "uid" : "538069b7df0a94b8",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1584782011220,
-        "stop" : 1584782048287,
-        "duration" : 37067
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "86573d89c4f216b1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1584713604319,
-        "stop" : 1584713633941,
-        "duration" : 29622
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "a6ffa0c289e210c4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1584712006587,
-        "stop" : 1584712035252,
-        "duration" : 28665
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "Login to application testcase",
-      "uid" : "7061e0f6534390a5",
+      "uid" : "b08f0b03134309d6",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1584713344342,
-        "stop" : 1584713361587,
-        "duration" : 17245
+        "start" : 1584796131772,
+        "stop" : 1584796217239,
+        "duration" : 85467
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Login to application testcase",
-      "uid" : "fe8b5a5da5eebd90",
+      "uid" : "4004143a9c3a9a8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584793111340,
+        "stop" : 1584793171734,
+        "duration" : 60394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "dfbd3821bb01303b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -122,7 +57,33 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Login to application testcase",
-      "uid" : "536044364ae7c810",
+      "uid" : "1825874634b80b47",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584713604319,
+        "stop" : 1584713633941,
+        "duration" : 29622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "56914bf034fa157",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584712006587,
+        "stop" : 1584712035252,
+        "duration" : 28665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "3c9bdb6e82ecd9d9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -133,13 +94,117 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "1cb79f8ff2039b32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584796606851,
+        "stop" : 1584796635941,
+        "duration" : 29090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "ab566f9d9c05fbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584793331231,
+        "stop" : 1584793391152,
+        "duration" : 59921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "fa3cbbfc7a82485e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584713344342,
+        "stop" : 1584713361587,
+        "duration" : 17245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "dd6873b012ef6c14",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584795722074,
+        "stop" : 1584795726099,
+        "duration" : 4025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "54f7b046c5c59d43",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584795994273,
+        "stop" : 1584796036289,
+        "duration" : 42016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "f46264b61b29907b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584788569719,
+        "stop" : 1584788606299,
+        "duration" : 36580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "ed4dc463afd24928",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584782011220,
+        "stop" : 1584782048287,
+        "duration" : 37067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "Login to application testcase",
-      "uid" : "8e1f2fdd376fe0cd",
+      "uid" : "1f29bc7f1294b67e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1584795722075,
+        "stop" : 1584795768622,
+        "duration" : 46547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Login to application testcase",
+      "uid" : "325339a5c57b1a81",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "broken",
       "time" : {

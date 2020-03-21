@@ -1,18 +1,16 @@
 {
-  "uid" : "f58ecbe55b50841",
+  "uid" : "1cb79f8ff2039b32",
   "name" : "Login to application testcase",
   "fullName" : "Login to Application.Login to application testcase",
   "historyId" : "62541956e57285d20b742716ada5abe3",
   "time" : {
-    "start" : 1584793331231,
-    "stop" : 1584793391152,
-    "duration" : 59921
+    "start" : 1584796606851,
+    "stop" : 1584796635941,
+    "duration" : 29090
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "broken",
-  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
-  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)\n                    at Test.Runnable._timeoutError (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -52,7 +50,51 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "8e1f2fdd376fe0cd",
+      "uid" : "b08f0b03134309d6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js)",
+      "time" : {
+        "start" : 1584796131772,
+        "stop" : 1584796217239,
+        "duration" : 85467
+      }
+    }, {
+      "uid" : "54f7b046c5c59d43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584795994273,
+        "stop" : 1584796036289,
+        "duration" : 42016
+      }
+    }, {
+      "uid" : "1f29bc7f1294b67e",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584795722075,
+        "stop" : 1584795768622,
+        "duration" : 46547
+      }
+    }, {
+      "uid" : "dd6873b012ef6c14",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)",
+      "time" : {
+        "start" : 1584795722074,
+        "stop" : 1584795726099,
+        "duration" : 4025
+      }
+    }, {
+      "uid" : "ab566f9d9c05fbe",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
+      "time" : {
+        "start" : 1584793331231,
+        "stop" : 1584793391152,
+        "duration" : 59921
+      }
+    }, {
+      "uid" : "325339a5c57b1a81",
       "status" : "broken",
       "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js)",
       "time" : {
@@ -61,7 +103,7 @@
         "duration" : 60346
       }
     }, {
-      "uid" : "dfc48685c6fe586e",
+      "uid" : "4004143a9c3a9a8d",
       "status" : "broken",
       "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
       "time" : {
@@ -70,7 +112,7 @@
         "duration" : 60394
       }
     }, {
-      "uid" : "8eb497dd197c1218",
+      "uid" : "f46264b61b29907b",
       "status" : "passed",
       "time" : {
         "start" : 1584788569719,
@@ -78,7 +120,7 @@
         "duration" : 36580
       }
     }, {
-      "uid" : "538069b7df0a94b8",
+      "uid" : "ed4dc463afd24928",
       "status" : "passed",
       "time" : {
         "start" : 1584782011220,
@@ -86,7 +128,7 @@
         "duration" : 37067
       }
     }, {
-      "uid" : "fe8b5a5da5eebd90",
+      "uid" : "dfbd3821bb01303b",
       "status" : "passed",
       "time" : {
         "start" : 1584781814725,
@@ -94,7 +136,7 @@
         "duration" : 46874
       }
     }, {
-      "uid" : "536044364ae7c810",
+      "uid" : "3c9bdb6e82ecd9d9",
       "status" : "passed",
       "time" : {
         "start" : 1584713948539,
@@ -102,7 +144,7 @@
         "duration" : 31493
       }
     }, {
-      "uid" : "86573d89c4f216b1",
+      "uid" : "1825874634b80b47",
       "status" : "passed",
       "time" : {
         "start" : 1584713604319,
@@ -110,7 +152,7 @@
         "duration" : 29622
       }
     }, {
-      "uid" : "7990581b99d08351",
+      "uid" : "cc96d150f9026d24",
       "status" : "broken",
       "statusDetails" : "home.printAllNavigationElement is not a function",
       "time" : {
@@ -119,7 +161,7 @@
         "duration" : 14276
       }
     }, {
-      "uid" : "7061e0f6534390a5",
+      "uid" : "fa3cbbfc7a82485e",
       "status" : "broken",
       "statusDetails" : "elements is not defined",
       "time" : {
@@ -128,7 +170,7 @@
         "duration" : 17245
       }
     }, {
-      "uid" : "a6ffa0c289e210c4",
+      "uid" : "56914bf034fa157",
       "status" : "passed",
       "time" : {
         "start" : 1584712006587,
@@ -136,13 +178,9 @@
         "duration" : 28665
       }
     } ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f58ecbe55b50841.json",
+  "source" : "1cb79f8ff2039b32.json",
   "parameterValues" : [ "chrome" ]
 }

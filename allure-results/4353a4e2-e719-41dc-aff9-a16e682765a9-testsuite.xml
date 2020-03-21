@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584795722075' stop='1584795768626'>
+    <name>Login to Application</name>
+    <title>Login to Application</title>
+    <test-cases>
+        <test-case start='1584795722075' status='broken' stop='1584795768622'>
+            <name>Login to application testcase</name>
+            <title>Login to application testcase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>chrome not reachable
+                  (Session info: chrome=80.0.3987.149)</message>
+                <stack-trace>chrome not reachable
+                  (Session info: chrome=80.0.3987.149)
+                    at getErrorFromResponseBody (C:\Users\Alkesh\WebDriverIO\node_modules\webdriver\build\utils.js:124:10)
+                    at Request._callback (C:\Users\Alkesh\WebDriverIO\node_modules\webdriver\build\request.js:121:64)
+                    at Request.self.callback (C:\Users\Alkesh\WebDriverIO\node_modules\request\request.js:185:22)
+                    at Request.&lt;anonymous> (C:\Users\Alkesh\WebDriverIO\node_modules\request\request.js:1154:10)
+                    at IncomingMessage.&lt;anonymous> (C:\Users\Alkesh\WebDriverIO\node_modules\request\request.js:1076:12)
+                    at Browser.runCommandWithHooks (C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Context.&lt;anonymous> (C:\Users\Alkesh\WebDriverIODemo\test\homePage.js:6:17)
+                    at Context.executeSync (C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Alkesh\WebDriverIO\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

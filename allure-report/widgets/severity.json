@@ -1,11 +1,11 @@
 [ {
-  "uid" : "f58ecbe55b50841",
+  "uid" : "1cb79f8ff2039b32",
   "name" : "Login to application testcase",
   "time" : {
-    "start" : 1584793331231,
-    "stop" : 1584793391152,
-    "duration" : 59921
+    "start" : 1584796606851,
+    "stop" : 1584796635941,
+    "duration" : 29090
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

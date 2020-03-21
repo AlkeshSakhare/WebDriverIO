@@ -99,5 +99,6 @@ Generate allure report
 
 4.run command : allure generate [allure_output_dir] && allure open
     
+Note : to clean existing report use command : allure generate --clean  && allure open
 
 */

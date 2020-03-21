@@ -30,6 +30,7 @@ exports.config = {
       },
     // Patterns to exclude.
     exclude: [
+        './test/elements/*.js'
         // 'path/to/excluded/files'
     ],
     //

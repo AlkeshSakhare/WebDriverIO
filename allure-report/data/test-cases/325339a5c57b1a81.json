@@ -1,18 +1,18 @@
 {
-  "uid" : "dfc48685c6fe586e",
+  "uid" : "325339a5c57b1a81",
   "name" : "Login to application testcase",
   "fullName" : "Login to Application.Login to application testcase",
   "historyId" : "62541956e57285d20b742716ada5abe3",
   "time" : {
-    "start" : 1584793111340,
-    "stop" : 1584793171734,
-    "duration" : 60394
+    "start" : 1584793111386,
+    "stop" : 1584793171732,
+    "duration" : 60346
   },
   "description" : "",
   "descriptionHtml" : "",
   "status" : "broken",
-  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)",
-  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\elements\\homePage.js)\n                    at Test.Runnable._timeoutError (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\Alkesh\\WebDriverIODemo\\test\\homePage.js)\n                    at Test.Runnable._timeoutError (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:463:10)\n                    at Timeout.<anonymous> (C:\\Users\\Alkesh\\WebDriverIO\\node_modules\\@wdio\\mocha-framework\\node_modules\\mocha\\lib\\runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -25,7 +25,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Login to Application"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dfc48685c6fe586e.json",
+  "source" : "325339a5c57b1a81.json",
   "parameterValues" : [ "chrome" ]
 }
