@@ -35,7 +35,7 @@ Webdriver IO Installation:
 
         line 23 to   './test/**/*.js'
 
-   Goto package.json file and change 
+     Goto package.json file and change 
 
          line 7 to "test": "node_modules/.bin/wdio run wdio.conf.js"
 
@@ -61,14 +61,14 @@ Creating Test Suites:
 
 1.Open wdio.config.js and write below specs
 
-suites:{
+`suites:{
   SuiteName:[
     './test/elements/*.js'
   ],
   waits:[
     './test/wait/*.js'
   ]
-}
+}`
 
 2.Open package.json file and write below inside scripts object
 
@@ -77,4 +77,5 @@ suites:{
 3.To run specific suite run below command
 
 npm run --suite SuiteName
+
 */
