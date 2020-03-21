@@ -41,3 +41,28 @@ Tips:
 2.If there are multiple testcases i.e it() block then same session will be use to execute testcase
 
 */
+
+
+/*
+
+Creating Test Suites:
+
+1.Open wdio.config.js and write below specs
+
+suites:{
+  SuiteName:[
+    './test/elements/*.js'
+  ],
+  waits:[
+    './test/wait/*.js'
+  ]
+}
+
+2.Open package.json file and write below inside scripts object
+
+    "elements": "C:/Users/Alkesh/WebDriverIO/node_modules/.bin/wdio run wdio.conf.js --suite SuiteName"
+
+3.To run specific suite run below command
+
+npm run --suite SuiteName
+*/
