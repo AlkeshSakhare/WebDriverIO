@@ -39,6 +39,17 @@ Webdriver IO Installation:
 
          line 7 to "test": "node_modules/.bin/wdio run wdio.conf.js"
 
+     add below lines
+     beforeTest:function(){
+        const chai = require('chai')
+        const chaiWebdriver = require('chai-webdriverio').default
+        chai.use(chaiWebdriver(browser))
+
+        global.assert = chai.assert
+        global.should = chai.should
+        global.expect = chai.expect
+    },    
+
 8.To Run test
 
     npm test

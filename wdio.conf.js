@@ -1,3 +1,10 @@
+const url = require('./urls')
+const ENV = process.env.ENV
+
+if(!ENV || !['DEV','QA','STAGE','PROD'].includes(ENV)){
+    console.log('Please enter valid ENV as DEV | QA | STAGE | PROD')
+    process.exit()
+}
 exports.config = {
     //
     // ====================
@@ -99,8 +106,8 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://classic.freecrm.com',
-    //
+    // baseUrl: 'https://classic.freecrm.com',
+    baseUrl: url[process.env.ENV],
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
     //
